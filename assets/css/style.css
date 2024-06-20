@@ -10,7 +10,8 @@ body {
 /* header */
 header {
     background-color: white;
-}
+   box-shadow: 0 4px 4px #ffff;
+ }
 
 /* main */
 #meditation-img {
@@ -18,6 +19,17 @@ header {
     width: 100%;
     background: url("../images/meditaion.png") no-repeat center center/cover;
 }
+
+/* nav-list */
+ #nav-list {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style: none;
+ }
+
+ nav-list > ul {
+    margin-bottom: 2em;
+ }
 
 /* paragraph for cover-text */
 p {
@@ -27,6 +39,16 @@ p {
       font-style: normal;
       color: #ffff;
     }
+
+    h1 {
+     font-family: "Playfair Display", serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-style: normal;
+      color: grey;
+    }
+
+
     /* cover-text id */
 #cover-text {
     color: #fff;
