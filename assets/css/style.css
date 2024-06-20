@@ -16,7 +16,23 @@ header {
 }
 
 /* paragraph for cover-text */
-
+p {
+      font-family: "Playfair Display", serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-style: normal;
+      color: #ffff;
+    }
+    /* cover-text id */
+#cover-text {
+    color: #fff;
+    opacity: .5;
+    font-size: 180%;
+    position: absolute;
+    width: 20%;
+    top: 200px;
+    right: 200px;
+}
 
 
 /* footer */
