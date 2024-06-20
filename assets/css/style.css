@@ -1,3 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 /* header */
 
 header {
@@ -10,6 +14,10 @@ header {
     width: 100%;
     background: url("../images/meditaion.png") no-repeat center center/cover;
 }
+
+/* paragraph for cover-text */
+
+
 
 /* footer */
 footer {
