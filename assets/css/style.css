@@ -1,0 +1,18 @@
+/* header */
+
+header {
+    background-color: white;
+}
+
+/* main */
+#meditation-img {
+    height: 600px;
+    width: 100%;
+    background: url("../images/meditaion.png") no-repeat center center/cover;
+}
+
+/* footer */
+footer {
+    background-color: green;
+}
+
