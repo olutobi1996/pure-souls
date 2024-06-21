@@ -11,7 +11,17 @@ body {
 header {
     background-color: white;
    box-shadow: 0 4px 4px #ffff;
+   height: 70px;
  }
+
+ .topnav-right {
+    float: right;
+    top: 10px;
+    display: flex;
+    float: right;
+    margin-right: 30px;
+    padding-left: 20px;
+  }
 
 /* main */
 #meditation-img {
@@ -21,14 +31,12 @@ header {
 }
 
 /* nav-list */
+
  #nav-list {
     font-size: 100%;
     letter-spacing: 2px;
-    list-style: none;
- }
-
- nav-list > ul {
-    margin-bottom: 2em;
+    width: 100%;
+    right: 0;
  }
 
 /* paragraph for cover-text */
@@ -58,6 +66,14 @@ p {
     width: 20%;
     top: 200px;
     right: 200px;
+}
+
+.column1 {
+    float: left;
+}
+
+column2 {
+    
 }
 
 
