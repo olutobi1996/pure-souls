@@ -11,7 +11,7 @@
 
 /* General styles */
 body {
-    min-height: 80vh;
+    min-height: 100vh;
     font-family: "Playfair Display", serif;
 }
 /* header */
@@ -71,10 +71,25 @@ p {
 
 .mind-container {
   width: 25%;
-  height: 50vh;
+  height: 100%;
   background-color: wheat;
+  float: left;
 }
   
+.body-container {
+  width: 50%;
+  height: 100%;
+  background-color: wheat;
+  
+}
+
+.tips-container {
+  width: 25%;
+  height: 100%;
+  background-color: wheat;
+  float: right;
+    
+}
   main {
     /* Make main element take up any excess space to push footer down*/
     flex: 1 0 auto;
