@@ -14,20 +14,24 @@ body {
     min-height: 100vh;
     font-family: "Playfair Display", serif;
 }
+
+
 /* header */
 header {
     background-color: wheat;
-   height: 100px;
- }
+   width: 100%;
+   height: 100%;
 
+}
  .topnav-right {
     float: right;
   }
 
 /* main */
 #meditation-img {
-    height: 600px;
+    height: 500px;
     width: 100%;
+    position: relative;
     background: url("../images/meditaion.png") no-repeat center center/cover;
 }
 
@@ -86,19 +90,32 @@ p {
 .tips-container {
   width: 25%;
   height: 100%;
-  background-color: wheat;
-  float: right;
+ background-color: wheat;
+ float: right;
     
 }
+
   main {
     /* Make main element take up any excess space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+    position: relative;
+}
+/* yoga-img */
+#yoga-img {
+  height: 300px;
+    width: 50%;
+    position: relative;
+    background: url("../images/yoga.jpg") no-repeat center center/cover;
+}
 }
 
 
 /* footer */
-footer {
-    background-color: green;
+.footer-div {
+  width: 100%;
+  background-color: wheat;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
-
