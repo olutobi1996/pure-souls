@@ -73,28 +73,36 @@ p {
     right: 200px;
 }
 
-.mind-container {
-  width: 25%;
-  height: 100%;
-  background-color: wheat;
+ /* style three vertical column layout */
+.container {
   float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: 300px;
+  background-color: wheat;
+
 }
   
-.body-container {
+.container {
   width: 50%;
   height: 100%;
   background-color: wheat;
   
 }
 
-.tips-container {
+.container {
   width: 25%;
   height: 100%;
  background-color: wheat;
  float: right;
     
 }
-
+  
+/* row for columns */
+.row {
+  display: table;
+  clear: both;
+}
   main {
     /* Make main element take up any excess space to push footer down*/
     flex: 1 0 auto;
@@ -108,14 +116,35 @@ p {
     position: relative;
     background: url("../images/yoga.jpg") no-repeat center center/cover;
 }
+ 
+/* style for two column layout*/
+column {
+float: left;
+width: 50%;
 }
 
 
 /* footer */
-.footer-div {
+.footer-ul {
   width: 100%;
   background-color: wheat;
   bottom: 0;
   left: 0;
   position: absolute;
 }
+
+
+/* Responsive to device- when screen is less than 500px columns stack on top of each of each other */
+@media screen and (max-width: 500px){
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive to device- when screen is less than 500px column left and right stack on top of each of each other */
+@media screen and (max-width: 500px){
+  .column {
+    width: 100%;
+  }
+}
+
