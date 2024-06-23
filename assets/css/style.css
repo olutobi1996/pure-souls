@@ -118,11 +118,16 @@ p {
 }
  
 /* style for two column layout*/
-column {
+.column {
 float: left;
 width: 50%;
 }
+/* row float css*/
 
+.row {
+  display: table;
+  clear: both;
+}
 
 /* footer */
 .footer-ul {
