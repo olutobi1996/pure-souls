@@ -72,15 +72,16 @@ p {
 }
 
  /* style three vertical column layout */
-.container {
+ .box {
   display: flex;
-
 }
   
 /* row for columns */
 .row {
 display: flex;
 }
+
+
   main {
     /* Make main element take up any excess space to push footer down*/
     flex: 1 0 auto;
