@@ -11,119 +11,118 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
-    font-family: "Playfair Display", serif;
-    background-color: wheat;
-    display: wrap;
+  min-height: 100vh;
+  font-family: "Playfair Display", serif;
+  background-color: wheat;
+  display: wrap;
 }
 
 
 /* header */
 header {
-    background-color: wheat;
+  background-color: wheat;
   display: flex;
 
 }
 
 /* main */
 #meditation-img {
-    height: 500px;
-    width: 100%;
-    position: relative;
-    background: url("../images/meditaion.png") no-repeat center center/cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background: url("../images/meditaion.png") no-repeat center center/cover;
 }
 
 /* nav-list */
 
- #nav-list > a {
-    font-size: 100%;
-    letter-spacing: 2px;
-   display: flex;
-   text-decoration: none;
- }
+#nav-list>a {
+  font-size: 100%;
+  letter-spacing: 2px;
+  display: flex;
+  text-decoration: none;
+}
 
 /* paragraph for cover-text */
 p {
-      font-family: "Playfair Display", serif;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      font-style: normal;
-      color: #ffff;
-    }
-
-    h1 {
-     font-family: "Playfair Display", serif;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-style: normal;
-      color: grey;
-    }
-
-
-    /* cover-text id */
-#cover-text {
-    color: #fff;
-    opacity: .5;
-    font-size: 180%;
-    position: absolute;
-    width: 20%;
-    top: 200px;
-    right: 200px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: normal;
+  color: #ffff;
 }
 
- /* style three vertical column layout */
- .box {
+h1 {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: grey;
+}
+
+
+/* cover-text id */
+#cover-text {
+  color: #fff;
+  opacity: .5;
+  font-size: 180%;
+  position: absolute;
+  width: 20%;
+  top: 200px;
+  right: 200px;
+}
+
+/* style three vertical column layout */
+.box {
   display: flex;
 }
-  
+
 /* row for columns */
 .row {
-display: flex;
+  display: flex;
 }
 
-
-  main {
-    /* Make main element take up any excess space to push footer down*/
-    flex: 1 0 auto;
-    position: relative;
+main {
+  /* Make main element take up any excess space to push footer down*/
+  flex: 1 0 auto;
+  position: relative;
 }
+
 /* yoga-img */
 #yoga-img {
   height: 500px;
   width: 100%;
-    position: relative;
-    background: url("../images/yoga.jpg") no-repeat center center/cover;
+  position: relative;
+  background: url("../images/yoga.jpg") no-repeat center center/cover;
 }
- 
+
+/* style for two column layout*/
+.vertical {
+  display: flex;
+}
+
 /* style for two column layout*/
 .column {
-display: flex;
-}
-/* row float css*/
-
-.row {
-display: flex;
+flex: 50%;
 }
 
 /* footer */
 .footer-ul {
   width: 100%;
   background-color: wheat;
- display: flex;
+  display: flex;
 }
 
 
 /* Responsive to device- when screen is less than 500px columns stack on top of each of each other */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
 }
 
 /* Responsive to device- when screen is less than 500px column left and right stack on top of each of each other */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
 }
-
