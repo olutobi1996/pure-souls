@@ -4,28 +4,26 @@
 /* Asterisk wildcard selector to overide default styles added by the browser */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
     min-height: 100vh;
     font-family: "Playfair Display", serif;
+    background-color: wheat;
+    display: wrap;
 }
 
 
 /* header */
 header {
     background-color: wheat;
-   width: 100%;
-   height: 100%;
+  display: flex;
 
 }
- .topnav-right {
-    float: right;
-  }
 
 /* main */
 #meditation-img {
@@ -37,11 +35,11 @@ header {
 
 /* nav-list */
 
- #nav-list {
+ #nav-list > a {
     font-size: 100%;
     letter-spacing: 2px;
-    width: 100%;
-    right: 0;
+   display: flex;
+   text-decoration: none;
  }
 
 /* paragraph for cover-text */
@@ -75,67 +73,42 @@ p {
 
  /* style three vertical column layout */
 .container {
-  float: left;
-  width: 33.3%;
-  padding: 10px;
-  height: 300px;
-  background-color: wheat;
+  display: flex;
 
-}
-  
-.container {
-  width: 50%;
-  height: 100%;
-  background-color: wheat;
-  
-}
-
-.container {
-  width: 25%;
-  height: 100%;
- background-color: wheat;
- float: right;
-    
 }
   
 /* row for columns */
 .row {
-  display: table;
-  clear: both;
+display: flex;
 }
   main {
     /* Make main element take up any excess space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
     position: relative;
 }
 /* yoga-img */
 #yoga-img {
-  height: 300px;
-    width: 50%;
+  height: 500px;
+  width: 100%;
     position: relative;
     background: url("../images/yoga.jpg") no-repeat center center/cover;
 }
  
 /* style for two column layout*/
 .column {
-float: left;
-width: 50%;
+display: flex;
 }
 /* row float css*/
 
 .row {
-  display: table;
-  clear: both;
+display: flex;
 }
 
 /* footer */
 .footer-ul {
   width: 100%;
   background-color: wheat;
-  bottom: 0;
-  left: 0;
-  position: absolute;
+ display: flex;
 }
 
 
