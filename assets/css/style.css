@@ -7,19 +7,35 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /* href elements */
 #home {
   text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 }
 
-#info {
+#In-depth {
 text-align: center;
+padding: 2px;
+text-decoration: none;
+margin: 0;
+padding: 0;
+justify-content: space-between;
 }
 
 #signup {
   text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 }
 
 /* General styles */
@@ -50,16 +66,15 @@ header {
   background: url("../images/meditaion.png") no-repeat center center/cover;
 }
 
-/* nav-list */
+/* navlist */
 
-#nav-list {
-  font-size: 100%;
-  letter-spacing: 2px;
-  display: flex;
-  list-style: none;
-  display: wrap;
-  text-decoration: none;
+#navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* paragraph for cover-text */
