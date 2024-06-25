@@ -9,6 +9,19 @@
   box-sizing: border-box;
 }
 
+/* href elements */
+#home {
+  text-align: center;
+}
+
+#info {
+text-align: center;
+}
+
+#signup {
+  text-align: center;
+}
+
 /* General styles */
 body {
   min-height: 100vh;
@@ -23,7 +36,10 @@ body {
 header {
   background-color: wheat;
   display: flex;
-
+  justify-content: space-between;
+  list-style: none;
+  display: wrap;
+  text-decoration: none;
 }
 
 /* main */
@@ -43,6 +59,7 @@ header {
   list-style: none;
   display: wrap;
   text-decoration: none;
+  justify-content: space-between;
 }
 
 /* paragraph for cover-text */
