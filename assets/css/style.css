@@ -138,6 +138,14 @@ flex: 50%;
 list-style: none;
 }
 
+h2 {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: white;
+}
+
 /* footer */
 .footer-ul {
   width: 100%;
