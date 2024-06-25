@@ -4,7 +4,7 @@
 /* Asterisk wildcard selector to overide default styles added by the browser */
 
 * {
-  padding: 0;
+  padding: 2px;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
@@ -13,7 +13,6 @@
 /* href elements */
 #home {
   text-align: center;
-  padding: 2px;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -22,7 +21,6 @@
 
 #In-depth {
 text-align: center;
-padding: 2px;
 text-decoration: none;
 margin: 0;
 padding: 0;
@@ -31,7 +29,6 @@ justify-content: space-between;
 
 #signup {
   text-align: center;
-  padding: 2px;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -81,8 +78,8 @@ header {
 p {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: bold;
   color: black;
 }
 
@@ -91,7 +88,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-style: normal;
-  color: black;
+  color: white;
 }
 
 
