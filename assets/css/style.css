@@ -62,13 +62,13 @@ h1 {
 
 
 /* cover-text id */
-#div-cover-text {
-  color: whitesmoke;
+#cover-text {
+  color: white;
   opacity: .5;
   font-size: 180%;
   position: absolute;
-  width: 50%;
   display: flex;
+  margin-right: 20px;
 }
 
 /* style three vertical column layout */
@@ -175,5 +175,6 @@ table, tr, td {
 /* Responsive to device- when screen is less than 500px column left and right stack on top of each of each other */
 @media screen and (max-width: 500px) {
   .column {
-    width: 100%;
+    width: 100%; 
   }
+}
