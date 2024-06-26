@@ -39,7 +39,7 @@ justify-content: space-between;
 body {
   min-height: 100vh;
   font-family: "Playfair Display", serif;
-  background-color: wheat;
+  background-color: rgb(241, 238, 232);
   display: wrap;
   color: black;
 }
@@ -47,7 +47,7 @@ body {
 
 /* header */
 header {
-  background-color: wheat;
+  background-color: rgb(241, 238, 232);
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -77,8 +77,6 @@ header {
 /* paragraph for cover-text */
 p {
   font-family: "Playfair Display", serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   font-weight: bold;
   color: black;
 }
@@ -146,10 +144,17 @@ h2 {
   color: brown;
 }
 
+/* style for video */
+#video {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 /* footer */
 .footer-ul {
   width: 100%;
-  background-color: wheat;
+  background-color: rgb(241, 238, 232);
   display: flex;
 }
 
