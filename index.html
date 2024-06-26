@@ -22,41 +22,35 @@
 <body>
     <!--Header-->
     <header>
-        <a href="index.html" id="home" id="In-depth" id="signup" id="video">
+        <a href="index.html">
             <h1 id="logo"> <i class="fa-solid fa-spa"></i>Pure Souls</h1>
             <br>
             <p>Welcome to our meditation and yoga well-being center</p>
         </a>
+    <div id="nav1">
         <nav>
-            <div>
-                <nav>
-                    <ul id="navlist">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#in-depth">In-depth</a></li>
-                        <li><a href="#signup">Sign Up</a></li>
-                        <li><a href="#video">Video</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <a href="#home">Home</a> 
+            <a href="#in-depth">In-depth</a> 
+            <a href="#signup">Sign Up</a> 
+            <a href="#video">Video</a>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!--meditation-img & cover-text-->
         <section id="meditation-img" alt="Shadowed women in a yoga pose sitting down with her hands together" id="home">
-            <div id="cover-text" id="top">
+            <div id="div-cover-text"></div>
                 <!--paragraph element for cover-text-->
                 <p>Unlock the power</p>
                 <p>of your body</p>
                 <p>and mind</p>
-
-
-            </div>
         </section>
 
     </main>
 
     <!--Three vertical column section-->
-    <div class="box" id="In-depth">
+    <div class="box" id="in-depth">
         <div>
             <h1>Connecting with your mind...</h1>
             <p>Being in control of your mind is an essential part in meditation,
@@ -105,8 +99,10 @@
     </div>
 
     <!--Second img (yoga)-->
-    <section id="monks" alt="group of young monks meditating"></section>
+    <section id="monks" alt="group of monks meditating">
 
+
+    </section>
     <!--Two vertical column section-->
 
     <div class="vertical">
@@ -148,8 +144,7 @@
 
     <!--Video section-->
     <div id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hzi3PDz1AWU?si=E0JoIbXNJ6EzeUhV"
-            alt="Sadguru speaking about meditation for beginners" target="_blank"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hzi3PDz1AWU?si=E0JoIbXNJ6EzeUhV"></iframe>
     </div>
 
     <br>
@@ -173,7 +168,7 @@
                     <input type="radio" name="running_preference" id="mind" value="mind" required checked>
                 </div>
                 <div>
-                    <label for="Body">Body</label>
+                    <label for="body">Body</label>
                     <input type="radio" name="running_preference" id="body" value="body" required>
                 </div>
                 <div>
@@ -184,101 +179,57 @@
             <button type="submit" class="join-button">Namaste!</button>
         </form>
     </section>
-     
+
     <br>
 
-     <!--Table for times-->
-     <table>
+    <!--Table for times-->
+    <table>
         <tr>
-            <td> Day
-            <td>Time
-            <td>
-                Location
-
-            </td>
-            </td>
-            </td>
+          <th>Days</th>
+          <th>Location</th>
+          <th>Time</th>
         </tr>
         <tr>
-            <td> Monday
-            <td>17:30
-            <td>
-                Brighton Dome
-
-            </td>
-            </td>
-            </td>
+          <td>Monday</td>
+          <td>Brighton Beach</td>
+          <td>18:30</td>
         </tr>
         <tr>
-        <tr>
-            <td> Tuesday
-            <td>17:30
-            <td>
-                Brighton Sea Front
-
-            </td>
-            </td>
-            </td>
+          <td>Tuesday </td>
+          <td>Brighton Dome</td>
+          <td>17:30</td>
         </tr>
         <tr>
-            <td> Wednesday
-            <td>18:30
-            <td>
-                Brighton Dome
-
-            </td>
-            </td>
-            </td>
-        </tr>
-        <tr>
-            <td> Thursday
-            <td>19:00
-            <td>
-                Brighton Dome
-
-            </td>
-            </td>
-            </td>
-        </tr>
-        <tr>
-            <td> Friday
-            <td>17:30
-            <td>
-                Brighton Dome
-
-            </td>
-            </td>
-            </td>
-        </tr>
-        <tr>
-        <tr>
-            <td> Saturday
-            <td>16:30
-            <td>
-                Brighton Sea Front
-
-            </td>
-            </td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Sunday
-            <td>18:30
-            <td>
-                Brighton Sea Front
-
-            </td>
-            </td>
-            </td>
-        </tr>
-
-    </table>
+            <td>Wednesday </td>
+            <td>Brighton Dome</td>
+            <td>19:30</td>
+          </tr>
+          <tr>
+            <td>Thursday </td>
+            <td>Brighton Beach</td>
+            <td>19:30</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Brighton Dome</td>
+            <td>17:30</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Brighton Dome</td>
+            <td>17:30</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Brighton Beach</td>
+            <td>17:30</td>
+          </tr>
+      </table>
 </body>
 
 <!--contact icons-->
-<footer class="footer-ul">
-    <ul>
+<footer>
+    <ul class="footer-ul">
         <li><a href="https://www.facebook.com/" target="_blank" rel="noopner"
                 aria-label="Visit our facebook page(opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
         </li>
@@ -287,15 +238,13 @@
                 aria-label="Visit our twitter page(opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
         </li>
 
-        <li><a href="https://www.instagra.com/" target="_blank" rel="noopner"
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopner"
                 aria-label="Visit our instagram page(opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
         </li>
     </ul>
 </footer>
 
 </body>
-
 <!--font awesome-->
 <script src="https://kit.fontawesome.com/3d96c639d1.js" crossorigin="anonymous"></script>
-
 </html>

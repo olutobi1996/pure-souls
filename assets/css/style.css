@@ -10,34 +10,17 @@
   text-decoration: none;
 }
 
-/* href elements */
-#home {
-  text-align: center;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+/* nav elements */
+#nav1 {
+  list-style-type: none;
   justify-content: space-between;
-}
-
-#In-depth {
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding: 0;
-justify-content: space-between;
-}
-
-#signup {
-  text-align: center;
+  list-style: none;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
+  display: flex;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
   font-family: "Playfair Display", serif;
   background-color: rgb(241, 238, 232);
   display: wrap;
@@ -52,7 +35,6 @@ header {
   justify-content: space-between;
   list-style: none;
   display: wrap;
-  margin left: -50px;
   text-decoration: none;
 }
 
@@ -61,19 +43,9 @@ header {
   height: 500px;
   width: 100%;
   position: relative;
-  background: url("../images/meditaion.png") no-repeat center center/cover;
+  background: url(../images/meditation.png) no-repeat center center/cover;
 }
 
-/* navlist */
-
-#navlist {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
-  list-style: none;
-  text-decoration: none;
-}
 
 /* paragraph for cover-text */
 p {
@@ -88,19 +60,17 @@ h1 {
   letter-spacing: 2px;
   font-style: normal;
   color: brown;
-  margin left: -50px;
 }
 
 
 /* cover-text id */
-#cover-text {
-  color: #fff;
+#div-cover-text {
+  color: whitesmoke;
   opacity: .5;
   font-size: 180%;
   position: absolute;
-  width: 20%;
-  top: 200px;
-  right: 200px;
+  width: 50%;
+  display: flex;
 }
 
 /* style three vertical column layout */
@@ -119,12 +89,11 @@ main {
   position: relative;
 }
 
-/* yoga-img */
 #monks {
   height: 500px;
   width: 100%;
   position: relative;
-  background: url("../images/monks-meditating.jpg") no-repeat center center/cover;
+  background: url(../images/monks-meditating.jpg) no-repeat center center/cover
 }
 
 /* style for two column layout*/
@@ -151,6 +120,15 @@ h2 {
  display: flex;
  justify-content: center;
  align-items: center;
+}
+/* signup-form */
+#signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black none;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 table, tr, td {
