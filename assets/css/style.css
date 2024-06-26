@@ -52,6 +52,7 @@ header {
   justify-content: space-between;
   list-style: none;
   display: wrap;
+  margin left: -50px;
   text-decoration: none;
 }
 
@@ -87,6 +88,7 @@ h1 {
   letter-spacing: 2px;
   font-style: normal;
   color: brown;
+  margin left: -50px;
 }
 
 
@@ -149,6 +151,15 @@ h2 {
  display: flex;
  justify-content: center;
  align-items: center;
+}
+
+table, tr, td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black none;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* footer */
