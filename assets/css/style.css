@@ -23,7 +23,6 @@
 body {
   font-family: "Playfair Display", serif;
   background-color: rgb(241, 238, 232);
-  display: wrap;
   color: black;
 }
 
@@ -34,7 +33,6 @@ header {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  display: wrap;
   text-decoration: none;
 }
 
@@ -126,7 +124,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:2px solid black none;
+  border:2px black;
+  border-style: none;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -135,7 +134,8 @@ table, tr, td {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:2px solid black none;
+  border:2px black;
+  border-style: none;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
