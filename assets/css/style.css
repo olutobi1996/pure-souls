@@ -147,7 +147,24 @@ table, tr, td {
   display: flex;
 }
 
+/* Responsive to device- when screen is less than 800px columns stack on top of each of each other */
+@media (max-width: 800px) {
+	body {
+		display: flex;
+    display: wrap;
+		flex-direction: column;
+    width: 100%;
+	}
+}
 
+@media (max-width: 800px) {
+	header {
+		display: flex;
+    display: wrap;
+		flex-direction: column;
+    width: 100%;
+	}
+}
 /* Responsive to device- when screen is less than 500px columns stack on top of each of each other */
 @media screen and (max-width: 500px) {
   .column {
@@ -160,4 +177,3 @@ table, tr, td {
   .column {
     width: 100%;
   }
-}
