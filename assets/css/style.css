@@ -39,13 +39,14 @@ header {
 }
 
 /* main */
-#meditation-img {
-  height: 500px;
+img { 
   width: 100%;
-  position: relative;
-  background: url(../images/meditation.png) no-repeat center center/cover;
+  height: auto;
+  max-width: 100%;
   flex-wrap: wrap;
-}
+  flex: 1 0 auto; 
+  position: relative; 
+} 
 
 
 /* paragraph for cover-text */
@@ -53,6 +54,9 @@ p {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: black;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -61,6 +65,8 @@ h1 {
   letter-spacing: 2px;
   font-style: normal;
   color: brown;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -75,28 +81,25 @@ h1 {
 }
 
 /* style three vertical column layout */
-.box {
+.container {
   display: flex;
 }
 
-/* row for columns */
-.row {
-  display: flex;
-}
-
-main {
-  /* Make main element take up any excess space to push footer down*/
-  flex: 1 0 auto;
-  position: relative;
-}
-
-#monks {
-  height: 500px;
+.column {
+  flex: 33.33%;
+  height: 100%;
   width: 100%;
-  position: relative;
-  flex-wrap: wrap;
-  background: url(../images/monks-meditating.jpg) no-repeat center center/cover
+  background-color: rgb(241, 238, 232);
+  text-align: center;
 }
+
+ #img { 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  flex: 1 0 auto; 
+  position: relative; 
 
 /* style for two column layout*/
 .vertical {
@@ -104,7 +107,7 @@ main {
 }
 
 /* style for two column layout*/
-.column {
+ {
 flex: 50%;
 list-style: none;
 }
@@ -182,4 +185,5 @@ table, tr, td {
     width: 100%; 
     flex-wrap: wrap;
   }
+} 
 }
