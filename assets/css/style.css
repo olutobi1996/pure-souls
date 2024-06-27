@@ -25,8 +25,11 @@ body {
   background-color: rgb(241, 238, 232);
   color: black;
   flex-wrap: wrap;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* header */
 header {
@@ -45,7 +48,6 @@ img {
   max-width: 100%;
   flex-wrap: wrap;
   flex: 1 0 auto; 
-  position: relative; 
 } 
 
 
@@ -59,6 +61,8 @@ p {
   justify-content: center;
 }
 
+
+/* h1 heading */
 h1 {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
@@ -72,12 +76,10 @@ h1 {
 
 /* cover-text id */
 #cover-text {
-  color: white;
-  opacity: .5;
-  font-size: 180%;
   position: absolute;
-  display: flex;
-  margin-right: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* style three vertical column layout */
@@ -99,17 +101,19 @@ h1 {
   max-width: 100%;
   flex-wrap: wrap;
   flex: 1 0 auto; 
-  position: relative; 
-
-/* style for two column layout*/
-.vertical {
-  display: flex;
 }
 
-/* style for two column layout*/
- {
-flex: 50%;
-list-style: none;
+/* style for vertical column layout */
+.flex-box-container {
+  display: flex;
+  justify-content: center;
+}
+.row-left {
+ flex: 50%;
+}
+
+.row-right {
+  flex: 50%;
 }
 
 h2 {
@@ -122,10 +126,11 @@ h2 {
 
 /* style for video */
 #video {
- display: flex;
- justify-content: center;
- align-items: center;
+  align-items: center;
+  justify-content: center;
+
 }
+
 /* signup-form */
 #signup {
   display: flex;
@@ -137,6 +142,7 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* time table */
 table, tr, td {
   display: flex;
   justify-content: center;
@@ -148,11 +154,8 @@ table, tr, td {
 }
 
 /* footer */
-.footer-ul {
-  width: 100%;
-  background-color: rgb(241, 238, 232);
-  display: flex;
-  flex-wrap: wrap;
+footer {
+  margin-top: auto;
 }
 
 /* Responsive to device- when screen is less than 800px columns stack on top of each of each other */
