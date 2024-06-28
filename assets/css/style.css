@@ -85,6 +85,8 @@ h1 {
 /* style three vertical column layout */
 .container {
   display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
 }
 
 .column {
@@ -107,6 +109,8 @@ h1 {
 .flex-box-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  min-width: 300px;
 }
 
 .row-left {
@@ -126,9 +130,12 @@ h2 {
 }
 
 /* style for video */
-#video {
+ div video {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  min-width: 200px;
 
 }
 
@@ -159,6 +166,9 @@ td {
 /* footer */
 footer {
   margin-top: auto;
+  display: flex;
+  min-width: 300px;
+  width: 100%;
 }
 
 /* Responsive to device- when screen is less than 500px columns stack on top of each of each other */
@@ -186,5 +196,14 @@ footer {
   .container {
     width: 100%;
     display: flex;
+  }
+}
+
+/* Responsive to device- when screen is less than 300px columns stack on top of each of each other */
+@media screen and (max-width: 300px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
   }
 }
