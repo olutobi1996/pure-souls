@@ -108,15 +108,39 @@ I  used display flex & wrap elements to make each section stack on top of each o
 - Again main problem i had was being able to adjust the wdith and height when the image was viewed on a smaller device and keeps its full size. I overcame this problem by adding width to 100% and media queries so when it was viewed on smaller device you could still see the full image just smaller.
 
 ## Classes
+- Below the second image we have a two vertical column layout, this was provide asthetically for the user as i wanted to give the user the choice of seeing each section of information next to each other instead of potentially being dis-interested by scrolling past each part. I also changed the color of the headings in comparison to the text below to let the user know what each section means. I also kept the consistency of having the vertical layout below each image for the user to enjoy there experience smoothly.
+
+- Adding the vertical column layout i first tried using float styling which did not respond when adding other elements in, so i changed it to using display flex which i had a great time with.
+
+I  used display flex & wrap elements to make each section stack on top of each other when viewed on a phone and different devices to make it responsive.
 
 ## Video
+ - Below classes i had a video section, this was provided so the user could have some extra information for a well known figure in the meditative and yoga realm. This was again to encourage and help users to seek more about the benefits and how you do both these excercies, the video does not play automatically so the user has a choice.
+
+ - This i fine easy as i was able to copy link onto my code so didnt have difficulty when facing this element.
+
+ - I set the attributes of the video to width and height of 300px so when viewed on a phone it does not change it is already the correct height and width.
 
 ## Sign Up
 
+- This part of a page is a necessity as this allows users to directly contact pure souls and we can provide emails, texts and phone calls to speak with anyone interested. I thought it would be good place towards end of the page as this allows users to make a final decision wether it is for them or not.
+- This i found fine as i was able to use inspiration from my love running project previously.
+
+ - I  used display flex & wrap elements to make sign up section rsponsive when veiwed on other devices and it kept a clear view of what it was stating.
+
 ## Days Location Time
 
-## Footer
+- This part of a page is a necessity as this allows users to see the days time and location of when these classes are on. I thought it would be good place towards end of the page as this allows users to make a final decision wether it is for them or not.
 
+- I had spent a few hours trying to figure out how to style my table without a border and also i had one to many columns on my table so it wasnt showing up in the browser correctly. After figuring out where to put which element and what style to use it was placed nicely on the broswer.
+- I  used display flex & wrap elements to make day/time/location section rsponsive when veiwed on other devices and it kept a clear view of what it was stating.
+
+## Footer
+- This part of a page is a vital as this allows users to see our social media pages. I thought it would be good place towards end of the page as this allows users to make a final decision wether they would like to follow our social media pages or not.
+
+- The only problem i had with the footer was through jigsaw validator for days it was saying there was a problem as i had the tag outside the body element so i had to move it within this element, after that was solved i had no further issues.
+
+-I  did not have to use any resposive styles as the footer is small favcions in the corner of the page that stay in the same place when viewed on a smaller device.
 ### Validator Testing 
 
 - HTML
@@ -141,33 +165,21 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
+
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the Header were taken from [Font Awesome](https://fontawesome.com/)
+- The text for in-depth was knowledge from over the years, 
+- how to style the layout of column layout was isnpired by https://www.w3schools.com/
+- Instructions on how to implement form validation & how to write the html code was on the Sign up form was taken from  
+ inspiration from my [Love Running Project]
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Both of the photos used on the page are used from https://www.pexels.com/
+- This site is a free image website
 
+- 'How to meditate for beginners' was taken from (https://www.youtube.com/) 
+- I clicked on the video and below the video there was a share button i then copied the code.
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
