@@ -11,7 +11,7 @@ assets/images/screenshot-pure-souls.png
   - This section will allow the user to easily navigate from each different sections of the page across all devices without having to revert back to the previous page via the ‘back’ button. It is also use if you want to just view one section without having to read the other sections of the website. The navigation bar also includes text under the title "Pure Souls" welcoming people to the yoga and meditation website.
   - The navigation bar uses css styling to center element and when viewed on other applications will adapt to the width and height of technology used.
 
-![Website viewed on different devices]("assets/images/navigation-bar.png")
+assets/images/navigation-bar.png
 
 - __The landing page image__
 
@@ -82,25 +82,50 @@ assets/images/footer.png
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- The website has been tested numerous times to make sure the user has an easy and enjoyable experience.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Navigation Bar 
+- Starting with the navigation bar, this section is for the user to navigate the pages easy, at first i struggled with the links to different sections of the page as i was using the id i created at the wrong section of my page, this made the broswser go to different sections. I also found difficulty with how to add the IDs to anchor i couldnt work out why when i clicked the different sections of the nav, that it wouldnt work. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- I placed the navigation bar just off the centre to the right and i used display flex & wrap elements to make it responisve when viewed on different devices.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## First Image 
+- Below the nav we have the first image. I used an enlarged picture that captures the details of the image so the user has a positive feeling when viewing this photo. 
 
+- One main problem i had was being able to adjust the wdith and height when the image was viewed on a smaller device and keeps its full size. I overcame this problem by adding width to 100% and media queries so when it was viewed on smaller device you could still see the full image just smaller.
+
+## In Depth 
+- Below the first image we have a three vertical column layout, this was provide asthetically for the user as i wanted to give the user the choice of seeing each section of information next to each other instead of potentially being dis-interested by scrolling past each part. I also changed the color of the headings in comparison to the text below to let the user know what each section means. 
+
+- Adding the vertical column layout i first tried using float styling which did not respond when adding other elements in, so i changed it to using display flex which i had a great time with.
+
+I  used display flex & wrap elements to make each section stack on top of each other when viewed on a phone and different devices to make it responsive.
+
+## Second Image
+
+- Below the three vertical column we have the second image. I used an enlarged picture also in this section that gives the user more inspiration when scrolling through the page. I also liked the colours of the picture as bright orange catches your eye and is good visually for the user. 
+
+- Again main problem i had was being able to adjust the wdith and height when the image was viewed on a smaller device and keeps its full size. I overcame this problem by adding width to 100% and media queries so when it was viewed on smaller device you could still see the full image just smaller.
+
+## Classes
+
+## Video
+
+## Sign Up
+
+## Days Location Time
+
+## Footer
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](Validator.nu/LV https://validator.w3.org/services)
+  - No errors were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Folutobi1996.github.io%2Fpure-souls%2F 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
+  - No errors were found when passing through the official [(Jigsaw)]https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Folutobi1996.github.io%2Fpure-souls%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=envalidator#warnings)
 
 ### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There were no unfixed bugs in the final code but for days i had W3C validator show i had a "parse erorr" problem with my footer tag. For days i spent trying to solve problem on my own by using google and looking back through the project "love running", but still had no luck. So in the end with help from my tutor and slack team we solved the problem, it was simple error of putting footer tag within the body tag.
 
 ## Deployment
 
@@ -108,17 +133,13 @@ This section should describe the process you went through to deploy the project 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the main branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
