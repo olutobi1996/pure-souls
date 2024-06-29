@@ -13,6 +13,7 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured at the top of the website, the full responsive navigation bar includes links to the Home, In-Depth Sign-Up, Video and all these features are below each other on the same page to allow for easy navigation. 
   - This section will allow the user to easily navigate from each different sections of the page across all devices without having to revert back to the previous page via the ‘back’ button. It is also use if you want to just view one section without having to read the other sections of the website. The navigation bar also includes text under the title "Pure Souls" welcoming people to the yoga and meditation website.
+  - The navigation bar uses css styling to center element and when viewed on other applications will adapt to the width and height of technology used.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png) !!
 
@@ -21,6 +22,7 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph of a women with her hands together in a traditional yoga pose with on a beautiful summers days under a tree. 
   - This section introduces the user to Pure Souls with a striking picture to grab the users awareness. 
   - The idea of this picture is to let the users know right away what Pure Souls is.
+  - The Landing page image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also viewed on other applications will adapt to the width and height of technology used.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
@@ -28,6 +30,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The In Depth section will explain to the user to see the benefits of joining the Pure Souls classes, as well as the vast benefits of taking care of your physical, mental and spiritual health overall. 
   - This user will see the value of signing up for the Pure Soul Group Classes. Also will see the scientific eveidence backing the importants of being in control of your mind body and spirit. This should encourage the user to consider making meditation and yoga as a habit added to there daily routine and their form of exercise. 
+  - The in depth section uses css styling to gather section in three vertical columns and when viewed on other applications will adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
@@ -35,6 +38,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The image provided is a picture of a young group of monks meditating together in there traditional robes, it is a very powerful image that provides the user with inspiration of meditating in general and as a group.
   - The image provides the user with another clear understanding of what the website is about and contiunes to follow its message.
+  - The Monk image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also eviewed on other applications will adapt to the width and height of technology used.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
@@ -42,6 +46,7 @@ In this section, you should go over the different parts of your project, and des
 
   - This section will allow the user to see exactly what classes are provided at Pure Souls. The section allows the user to see the full name of the class given to allow for user to choose what they prefer.
   - This section will be changed from time to time as different classes may be adapted in the future.
+  - The in Techniques & Classes section uses css styling to gather section in two vertical columns and when viewed on other applications to adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
@@ -50,24 +55,24 @@ __Video__
 
    - This allows the user to understand and further listen to a skilled proffesional in his area speak on meditation and yoga.
    - Again the video is used to continue on the path of inspiring the user to join pure souls to change there life for the better.
+     - The video uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device. The video also gives user the choice to open on youtube.
 
 - __The Sign Up Section__
 
   - This page will allow the user to get signed up to Pure Souls to start their meditation and yoga journey with people on the same journey as them. The user will be able specify if they would like to take part in mind, body or both types of classes. The user will be asked to submit their full name and email address, if not filled out correctly will not be able to send form. 
+    - The Sign up uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
   __Timetable__
- - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the  will be in kilometers. 
+ - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the sessions will be be in hours 
   - This section will be updated as these times change to keep the user up to date.
+   - The Timetable uses css styling to center element and when viewed, but doesnt need to adpat to particular technology as it already uses correct width and height for smallest device.
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
+  - The footer section includes links to the relevant social media sites (instagram, facebook and twitter) for Pure Souls. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and shows the user the bottom of page.  - The Footer uses css styling to put element at the bottom left of the page, but doesnt need to adpat to particular technology as it already uses correct width and height for smallest device.
 
 ### Features Left to Implement
 
