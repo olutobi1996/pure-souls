@@ -26,24 +26,40 @@ In this section, you should go over the different parts of your project, and des
 
 - __In Depth__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The In Depth section will explain to the user to see the benefits of joining the Pure Souls classes, as well as the vast benefits of taking care of your physical, mental and spiritual health overall. 
+  - This user will see the value of signing up for the Pure Soul Group Classes. Also will see the scientific eveidence backing the importants of being in control of your mind body and spirit. This should encourage the user to consider making meditation and yoga as a habit added to there daily routine and their form of exercise. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Monk Image__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The image provided is a picture of a young group of monks meditating together in there traditional robes, it is a very powerful image that provides the user with inspiration of meditating in general and as a group.
+  - The image provides the user with another clear understanding of what the website is about and contiunes to follow its message.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __Techniques__
+- __Techniques & Classes__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see exactly what classes are provided at Pure Souls. The section allows the user to see the full name of the class given to allow for user to choose what they prefer.
+  - This section will be changed from time to time as different classes may be adapted in the future.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
+__Video__
+   - This part of the page is a video of a internationally recongized guru breaking down meditation and information surrounding the excercise for beginners. 
+
+   - This allows the user to understand and further listen to a skilled proffesional in his area speak on meditation and yoga.
+   - Again the video is used to continue on the path of inspiring the user to join pure souls to change there life for the better.
+
+- __The Sign Up Section__
+
+  - This page will allow the user to get signed up to Pure Souls to start their meditation and yoga journey with people on the same journey as them. The user will be able specify if they would like to take part in mind, body or both types of classes. The user will be asked to submit their full name and email address, if not filled out correctly will not be able to send form. 
+
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+  __Timetable__
+ - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the  will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date.
 
 - __The Footer__ 
 
@@ -52,16 +68,6 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
