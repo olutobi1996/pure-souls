@@ -1,7 +1,7 @@
 # Pure Souls
 Pure Souls is a website that hopes to inspire help and keep people mentally and physically healthy. It does this by organizing group yoga and meditation classes on a frequent basis in Brighton, England. The site will be targeted toward people who are looking for a way to de-stress, un-uncondition there minds and keep there body, mind and soul healthy and liberated from lifes troubles. Pure Souls will be useful for people to see exactly when, where and how they meditate and yoga and what classes are fit for them. 
 
-![Website viewed on different devices]("assets/images/screenshot-pure-souls.png")
+assets/images/screenshot-pure-souls.png
 
 ### Existing Features
 
@@ -20,7 +20,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - The idea of this picture is to let the users know right away what Pure Souls is.
   - The Landing page image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also viewed on other applications will adapt to the width and height of technology used.
 
-![Landing Page]("assets/images/meditation.png")
+assets/images/meditation.png
 
 - __In Depth__
 
@@ -28,7 +28,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - This user will see the value of signing up for the Pure Soul Group Classes. Also will see the scientific eveidence backing the importants of being in control of your mind body and spirit. This should encourage the user to consider making meditation and yoga as a habit added to there daily routine and their form of exercise. 
   - The in depth section uses css styling to gather section in three vertical columns and when viewed on other applications will adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
-![In Depth]("assets/images/indepth.png")
+assets/images/indepth.png
 
 - __Monk Image__
 
@@ -36,7 +36,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - The image provides the user with another clear understanding of what the website is about and contiunes to follow its message.
   - The Monk image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also eviewed on other applications will adapt to the width and height of technology used.
 
-![Landing Page]("assets/images/monks-meditating.png")
+assets/images/monks-meditating.png
 
 - __Techniques & Classes__
 
@@ -45,7 +45,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - The in Techniques & Classes section uses css styling to gather section in two vertical columns and when viewed on other applications to adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
 
-![Landing Page]("assets/images/classes.png")
+assets/images/classes.png
 
 __Video__
    - This part of the page is a video of a internationally recongized guru breaking down meditation and information surrounding the excercise for beginners. 
@@ -54,14 +54,14 @@ __Video__
    - Again the video is used to continue on the path of inspiring the user to join pure souls to change there life for the better.
      - The video uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device. The video also gives user the choice to open on youtube.
 
-  ![Video]("assets/images/video.png")
+assets/images/video.png
 
 - __The Sign Up Section__
 
   - This page will allow the user to get signed up to Pure Souls to start their meditation and yoga journey with people on the same journey as them. The user will be able specify if they would like to take part in mind, body or both types of classes. The user will be asked to submit their full name and email address, if not filled out correctly will not be able to send form. 
     - The Sign up uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device.
 
-![Sign Up]("assets/images/signup.png")
+assets/images/signup.png
 
   __Timetable__
  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the sessions will be be in hours 
@@ -72,11 +72,13 @@ __Video__
 
   - The footer section includes links to the relevant social media sites (instagram, facebook and twitter) for Pure Souls. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and shows the user the bottom of page.  - The Footer uses css styling to put element at the bottom left of the page, but doesnt need to adpat to particular technology as it already uses correct width and height for smallest device.
-  ![Footer]("assets/images/footer.png")
+assets/images/footer.png
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea for the future of the website is review section of Pure Soul class members who talk about there positive experience and also any negative experiences they found when meditating or doing yoga, this will be provided in short video clips in a Q&A styled format.
+
+- Also spoke about above was adapting different types of classes down the line, i.e hot yoga and also branching out into sound healing depending on feedback from users and members.
 
 ## Testing 
 
@@ -92,9 +94,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](Validator.nu/LV https://validator.w3.org/services)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
 
 ### Unfixed Bugs
 
