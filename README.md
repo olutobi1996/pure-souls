@@ -1,7 +1,7 @@
 # Pure Souls
 Pure Souls is a website that hopes to inspire help and keep people mentally and physically healthy. It does this by organizing group yoga and meditation classes on a frequent basis in Brighton, England. The site will be targeted toward people who are looking for a way to de-stress, un-uncondition there minds and keep there body, mind and soul healthy and liberated from lifes troubles. Pure Souls will be useful for people to see exactly when, where and how they meditate and yoga and what classes are fit for them. 
 
-assets/images/screenshot-pure-souls.png
+![Website Layout ](screenshot-pure-souls.png)
 
 ### Existing Features
 
@@ -169,10 +169,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ### Content 
 
 - The icons in the Header were taken from [Font Awesome](https://fontawesome.com/)
-- The text for in-depth was knowledge from over the years, 
+- The text for in-depth & techniques was knowledge from over the years.
 - how to style the layout of column layout was isnpired by https://www.w3schools.com/
 - Instructions on how to implement form validation & how to write the html code was on the Sign up form was taken from  
  inspiration from my [Love Running Project]
+ - Table format was inspired by (https://codeinstitue.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
