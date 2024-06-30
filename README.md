@@ -11,7 +11,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - This section will allow the user to easily navigate from each different sections of the page across all devices without having to revert back to the previous page via the ‘back’ button. It is also use if you want to just view one section without having to read the other sections of the website. The navigation bar also includes text under the title "Pure Souls" welcoming people to the yoga and meditation website.
   - The navigation bar uses css styling to center element and when viewed on other applications will adapt to the width and height of technology used.
 
-assets/images/navigation-bar.png
+![navigation-bar](https://github.com/olutobi1996/pure-souls/assets/169264552/5d3a9c56-7036-49be-8893-e6e40e3e3db9)
 
 - __The landing page image__
 
@@ -28,7 +28,7 @@ assets/images/meditation.png
   - This user will see the value of signing up for the Pure Soul Group Classes. Also will see the scientific eveidence backing the importants of being in control of your mind body and spirit. This should encourage the user to consider making meditation and yoga as a habit added to there daily routine and their form of exercise. 
   - The in depth section uses css styling to gather section in three vertical columns and when viewed on other applications will adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
-assets/images/indepth.png
+![techniques](https://github.com/olutobi1996/pure-souls/assets/169264552/ea0438ae-dd16-4d9f-a273-44d8092706f3)
 
 - __Monk Image__
 
@@ -45,7 +45,7 @@ assets/images/monks-meditating.png
   - The in Techniques & Classes section uses css styling to gather section in two vertical columns and when viewed on other applications to adapt to the width and height of technology used by stacking each paragraph and heading on top of one another.
 
 
-assets/images/classes.png
+![classes](https://github.com/olutobi1996/pure-souls/assets/169264552/936e7e26-cad8-4b4e-8d96-059a1d235217)
 
 __Video__
    - This part of the page is a video of a internationally recongized guru breaking down meditation and information surrounding the excercise for beginners. 
@@ -54,25 +54,28 @@ __Video__
    - Again the video is used to continue on the path of inspiring the user to join pure souls to change there life for the better.
      - The video uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device. The video also gives user the choice to open on youtube.
 
-assets/images/video.png
+![video](https://github.com/olutobi1996/pure-souls/assets/169264552/137115ce-9b57-4fc2-8bc9-70e6890e13ff)
 
 - __The Sign Up Section__
 
   - This page will allow the user to get signed up to Pure Souls to start their meditation and yoga journey with people on the same journey as them. The user will be able specify if they would like to take part in mind, body or both types of classes. The user will be asked to submit their full name and email address, if not filled out correctly will not be able to send form. 
     - The Sign up uses css styling to center element and when viewed on all applications, but doesnt need to adpat to technology as it already uses correct width and height for smallest device.
 
-assets/images/signup.png
+![signup](https://github.com/olutobi1996/pure-souls/assets/169264552/7e2db6dd-21a4-4a69-a4ea-dc5b263b9cbb)
 
   __Timetable__
  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the sessions will be be in hours 
   - This section will be updated as these times change to keep the user up to date.
    - The Timetable uses css styling to center element and when viewed, but doesnt need to adpat to particular technology as it already uses correct width and height for smallest device.
 
+   ![location](https://github.com/olutobi1996/pure-souls/assets/169264552/eb42fc40-74d9-4ff2-a7f1-62d38cf53e35)
+
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites (instagram, facebook and twitter) for Pure Souls. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and shows the user the bottom of page.  - The Footer uses css styling to put element at the bottom left of the page, but doesnt need to adpat to particular technology as it already uses correct width and height for smallest device.
-assets/images/footer.png
+
+![footer](https://github.com/olutobi1996/pure-souls/assets/169264552/73ec3785-b962-4ba3-a05b-ed3a07f4c945)
 
 ### Features Left to Implement
 
