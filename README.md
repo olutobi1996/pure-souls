@@ -1,7 +1,7 @@
 # Pure Souls
 Pure Souls is a website that hopes to inspire help and keep people mentally and physically healthy. It does this by organizing group yoga and meditation classes on a frequent basis in Brighton, England. The site will be targeted toward people who are looking for a way to de-stress, un-uncondition there minds and keep there body, mind and soul healthy and liberated from lifes troubles. Pure Souls will be useful for people to see exactly when, where and how they meditate and yoga and what classes are fit for them. 
 
-![Website Layout ](screenshot-pure-souls.png)
+![Screenshot-pure-souls](https://github.com/olutobi1996/pure-souls/assets/169264552/9eca13f0-275d-4ec3-8659-40f1adb80f9b)
 
 ### Existing Features
 
@@ -20,7 +20,7 @@ Pure Souls is a website that hopes to inspire help and keep people mentally and 
   - The idea of this picture is to let the users know right away what Pure Souls is.
   - The Landing page image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also viewed on other applications will adapt to the width and height of technology used.
 
-assets/images/meditation.png
+![screenshot yoga](https://github.com/olutobi1996/pure-souls/assets/169264552/835497f3-9c82-4017-b676-eb0445ecb82a)
 
 - __In Depth__
 
@@ -36,7 +36,7 @@ assets/images/meditation.png
   - The image provides the user with another clear understanding of what the website is about and contiunes to follow its message.
   - The Monk image uses css styling to expand element full width and height and larger than most sections on the page to give that wow factor, this element when also eviewed on other applications will adapt to the width and height of technology used.
 
-assets/images/monks-meditating.png
+![Screenshot meditation](https://github.com/olutobi1996/pure-souls/assets/169264552/fdd8b334-1da3-497f-8a77-6184acb6b773)
 
 - __Techniques & Classes__
 
